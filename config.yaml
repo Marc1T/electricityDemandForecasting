@@ -1,0 +1,171 @@
+# config.yaml
+
+# -------------------------------------------------------------------
+# Clés API et paramètres généraux
+# -------------------------------------------------------------------
+esios:
+  token: "${ESIOS_TOKEN}"
+  base_url: "https://api.esios.ree.es/indicators"  
+
+# -------------------------------------------------------------------
+# Indicateurs ESIOS → nom de fichier CSV (dans data/raw/)
+# -------------------------------------------------------------------
+indicators:
+  1293: "Peninsule_Iberique"
+  10244: "Baleares"
+  10243: "Canarias"
+  1339: "Gran_canaria"
+  1347: "Ceuta"
+  1348: "Melilla"
+  1340: "Lanzarote_Fuerteventura"
+  1341: "Tenerife"
+  1342: "La_Palma"
+  1343: "La_Gomera"
+  1344: "El_Hierro"
+  2037: "nacional"
+
+  # 1345: "Mallorca_Menorca"
+  # 1346: "Ibiza_Formentera"
+  # 1690: "Mallorca_Menorca_Ibiza_Formentera
+
+
+# -------------------------------------------------------------------
+# Geo-IDs pour le PVPC (prix de l’énergie) → nom de zone
+# -------------------------------------------------------------------
+geo_ids:
+  8741: "Peninsule_Iberique"
+  8742: "Canarias"
+  8743: "Baleares"
+  8744: "Ceuta"
+  8745: "Melilla"
+# -------------------------------------------------------------------
+pvpc:
+  national:
+    indicator_id: 10229
+    geo_id: 3
+  regional:
+    indicator_id: 10391
+    geo_ids:
+      8741: "Peninsule_Iberique"
+      8742: "Canarias"
+      8743: "Baleares"
+      8744: "Ceuta"
+      8745: "Melilla"
+
+# -------------------------------------------------------------------
+# Plages de dates par défaut (YYYY-MM-DD)
+# -------------------------------------------------------------------
+dates:
+  start_date: "2015-05-01"
+  end_date:   "2025-05-01"
+
+# -------------------------------------------------------------------
+# Chemins de dossiers (relatifs à la racine du projet)
+# -------------------------------------------------------------------
+paths:
+  data:
+    raw:       "data/raw"
+    interim:   "data/interim"
+    processed: "data/processed"
+    external:  "data/external"
+    submission: "data/submission"
+  notebooks:   "notebooks"
+  src:         
+    data:      "src/data"
+    features:  "src/features"
+    models:    "src/models"
+    utils:     "src/utils"
+  models:      "models"
+  outputs:
+    figures:   "outputs/figures"
+    reports:   "outputs/reports"
+  dashboard:   "dashboard"
+
+# -------------------------------------------------------------------
+# Paramètres supplémentaires
+# -------------------------------------------------------------------
+processing:
+  aggregate_freq: "D"       # pandas offset alias: 'D' = daily
+  timezone:       "Europe/Madrid"
+
+external:
+  # Clés API pour données météo, holidays, etc.
+  aemet_token: "${AEMET_TOKEN}"
+  holidays:    "ES"          # code pays pour python-holidays
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s %(levelname)s %(message)s"
+
+
+# ----------------------------------------
+# Zones 
+# ----------------------------------------
+geo_zones:
+  1293: "Peninsule_Iberique"
+  10244: "Baleares"
+  10243: "Canarias"
+  1339: "Gran_canaria"
+  1347: "Ceuta"
+  1348: "Melilla"
+  1340: "Lanzarote_Fuerteventura"
+  1341: "Tenerife"
+  1342: "La_Palma"
+  1343: "La_Gomera"
+  1344: "El_Hierro"
+  2037: "nacional"
+
+# ----------------------------------------
+# Périodes d’étude
+# ----------------------------------------
+dates:
+  start_date: "2015-05-01"
+  end_date:   "2025-05-01"
+
+# ----------------------------------------
+# Exogènes : météo Open-Meteo & jours fériés
+# ----------------------------------------
+external:
+  # (pas de clé nécessaire pour Open-Meteo)
+  zones_coords:
+    Peninsule_Iberique:
+      lat: 40.4168
+      lon: -3.7038
+    Baleares:
+      lat: 39.5696
+      lon: 2.6502
+    Canarias:
+      lat: 28.2916
+      lon: -16.6291
+    Gran_canaria:
+      lat: 28.1235
+      lon: -15.4363
+    Ceuta:
+      lat: 35.8894
+      lon: -5.3190
+    Melilla:
+      lat: 35.1758
+      lon: -2.9381
+    Lanzarote_Fuerteventura:
+      lat: 29.0240
+      lon: -13.5030
+    Tenerife:
+      lat: 28.2916
+      lon: -16.6291
+    La_Palma:
+      lat: 28.6833
+      lon: -17.7667
+    La_Gomera:
+      lat: 28.1000
+      lon: -17.2500
+    El_Hierro:
+      lat: 27.7000
+      lon: -17.9500
+  holidays_country: "ES"
+  holidays_subregions:
+    - AN   # Andalucía
+    - IB   # Illes Balears
+    - CN   # Canarias
+    - CE   # Ceuta
+    - ML   # Melilla
+
