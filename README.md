@@ -4,7 +4,7 @@ Projet académique visant à développer un système de prévision de la demande
 Les données sont récupérées via l'API de Red Eléctrica de España (REE), enrichies par des sources externes (météo, jours fériés...) puis modélisées avec des approches classiques et deep learning.
 
 ---
-
+```
 energy_demand_forecasting/
 │
 ├── 📁 data/
@@ -51,7 +51,7 @@ energy_demand_forecasting/
 ├── requirements.txt              # Dépendances Python (pandas, sklearn, keras, streamlit…)
 ├── README.md                     # Présentation du projet, installation, usage
 └── config.yaml                   # Paramètres globaux : chemins, variables cibles, configs API, etc.
-
+```
 ---
 
 ## 🔧 Étapes principales
