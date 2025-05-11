@@ -5,8 +5,6 @@ Les données sont récupérées via l'API de Red Eléctrica de España (REE), en
 
 ---
 
-## 📁 Structure du projet
-
 energy_demand_forecasting/
 │
 ├── 📁 data/
