@@ -73,7 +73,9 @@ Prédire la demande électrique horaire ou journalière, pour appuyer la planifi
 
 ## 🧑‍💻 Auteur
 
-- **Marc Thierry Nankouli**
-- Étudiant en IA & Data Technologies  
-- Contact : consultasios@ree.es (clé API fournie par REE)
+- **Marc Thierry NANKOULI**
+- **Abdoulaye**
+- **Halima**
+- Étudiants en IA & Data Technologies
+- Contact : consultasios@ree.es (pour obtenir la clé API fournie par REE)
 
