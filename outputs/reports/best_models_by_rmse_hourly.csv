@@ -1,0 +1,13 @@
+zone,best_model_hourly
+Peninsule_Iberique,RandomForest
+Baleares,RandomForest
+Canarias,RandomForest
+Gran_canaria,RandomForest
+Ceuta,RandomForest
+Melilla,RandomForest
+Lanzarote_Fuerteventura,RandomForest
+Tenerife,RandomForest
+La_Palma,RandomForest
+La_Gomera,RandomForest
+El_Hierro,RandomForest
+nacional,RandomForest

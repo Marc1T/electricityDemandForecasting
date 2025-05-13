@@ -1,0 +1,13 @@
+zone,best_model_daily,best_model_hourly
+Peninsule_Iberique,Ridge,RandomForest
+Baleares,Ridge,RandomForest
+Canarias,Ridge,RandomForest
+Gran_canaria,RandomForest,RandomForest
+Ceuta,RandomForest,RandomForest
+Melilla,ElasticNet,RandomForest
+Lanzarote_Fuerteventura,Ridge,RandomForest
+Tenerife,Ridge,RandomForest
+La_Palma,Ridge,RandomForest
+La_Gomera,Ridge,RandomForest
+El_Hierro,Ridge,RandomForest
+nacional,RandomForest,RandomForest
