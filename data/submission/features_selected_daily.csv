@@ -1,0 +1,13 @@
+zone,features
+Baleares,"['lag_3d', 'T_sq', 'lag_2d', 'lag_6d', 'temp_rmean_7', 'lag_7d', 'temperature_2m', 'lag_1d', 'rmean_7d', 'temp_rmean_12', 'WindChill', 'lag_30d', 'lag_4d', 'demand', 'temp_rmean_3']"
+Canarias,"['lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'pvpc_rmean_24', 'lag_7d', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'month', 'lag_4d', 'demand', 'lag_365d']"
+Ceuta,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'rad_rsum_365', 'lag_7d', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'lag_4d', 'demand', 'lag_365d']"
+El_Hierro,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'lag_7d', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'lag_4d', 'demand', 'lag_365d']"
+Gran_canaria,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'dayofweek', 'rad_rsum_365', 'lag_7d', 'dow_sin', 'pvpc_x_T', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'demand', 'lag_365d']"
+Lanzarote_Fuerteventura,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'lag_7d', 'lag_1d', 'rmean_7d', 'lag_30d', 'month', 'lag_4d', 'demand', 'lag_365d']"
+La_Gomera,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'lag_7d', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'month', 'lag_4d', 'demand', 'lag_365d']"
+La_Palma,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'lag_7d', 'lag_1d', 'rmean_7d', 'temp_rmean_12', 'temp_rmean_3', 'lag_30d', 'lag_4d', 'demand', 'temp_rmean_14']"
+Melilla,"['lag_3d', 'T_sq', 'lag_2d', 'temp_rmean_7', 'lag_7d', 'temperature_2m', 'temp_rmean_30', 'lag_1d', 'rmean_7d', 'temp_rmean_12', 'temp_rmean_3', 'WindChill', 'lag_30d', 'month', 'temp_rmean_24', 'demand', 'temp_rmean_14']"
+nacional,"['lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'temp_rmean_7', 'lag_7d', 'lag_1d', 'rmean_7d', 'temp_rmean_12', 'temp_rmean_3', 'lag_30d', 'month', 'temp_rmean_24', 'demand', 'lag_365d', 'temp_rmean_14']"
+Peninsule_Iberique,"['temp_rmean_365', 'lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'lag_7d', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'lag_4d', 'demand', 'lag_365d']"
+Tenerife,"['lag_3d', 'pvpc_rmean_365', 'lag_2d', 'lag_6d', 'lag_5d', 'dayofweek', 'lag_7d', 'lag_1d', 'rmean_7d', 'rstd_7d', 'lag_30d', 'month', 'lag_4d', 'demand', 'lag_365d']"

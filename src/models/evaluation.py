@@ -19,5 +19,5 @@ def evaluate_regression(model, X_test, y_test, pred_series=None):
     mae  = mean_absolute_error(y_test, y_pred)
     rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     mape = np.mean(np.abs((y_test - y_pred) / y_test)) * 100
-    print(f"MAE: {mae:.2f}, RMSE: {rmse:.2f}, MAPE: {mape:.2f}%")
+    # print(f"MAE: {mae:.2f}, RMSE: {rmse:.2f}, MAPE: {mape:.2f}%")
     return {"MAE": mae, "RMSE": rmse, "MAPE": mape}
